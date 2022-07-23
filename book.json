@@ -1,11 +1,59 @@
 {
-	"title" : "个人笔记",
+	"title" : "tianwangchong个人笔记",
 	"author" : "tianwangchong",
 	"description" : "平时的一些知识积累",
 	"language" : "zh-hans",
 	"links" : {
 	    "sidebar" : {
-	        "Blog" : "http://blog.tianwangchong.com/"
+	        "博客" : "http://blog.tianwangchong.com/"
 	    }
-	}
+	},
+	"ignores": ["_book","styles","node_modules"],
+	"styles": {
+    "website": "styles/website.css"
+  },
+	"plugins": [
+		"auto-scroll-table",
+		"sidebar-style",
+		"click-reveal",
+		"-lunr",
+		"-search",
+		"search-pro",
+		"back-to-top-button",
+		"insert-logo-link",
+		"chapter-fold",
+		"expandable-chapters",
+		"code",
+		"advanced-emoji",
+		"emphasize",
+		"splitter",
+		"expandable-chapters-small",
+		"page-toc-button",
+		"klipse",
+		"donate",
+		"alerts"
+  ],
+  "pluginsConfig": {
+    "sidebar-style": {
+      "title": "tianwangchong个人笔记",
+      "author": "tianwangchong"
+    },
+    "donate": {
+      "wechat": "images/wxpaycode.jpg",
+      "alipay": "images/alipaycode.jpg",
+      "title": "",
+      "button": "打赏",
+      "alipayText": "支付宝打赏",
+      "wechatText": "微信打赏"
+    },
+    "page-toc-button": {
+      "maxTocDepth": 2,
+      "minTocSize": 2
+    },
+    "insert-logo-link": {
+      "src": "http://img.tianwangchong.com/blog/format,f_jpg20220723144053CWNJ3X.jpeg",
+      "url": "http://blog.tianwangchong.com/",
+      "style": "background: none; max-height: 50px; border-radius: 50%;"
+    }
+  }
 }
